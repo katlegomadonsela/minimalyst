@@ -1,0 +1,61 @@
+.navigation {
+  //padding: 20px 60px;
+  border-bottom: 1px solid #eee;
+  color: #444;
+
+  .top-nav-links {
+    display: flex;
+    padding: 0 60px;
+    padding-top: 20px;
+    justify-content: space-between;
+    //flex-grow: 0;
+    //flex-basis: 33.33%;
+    line-height: 25px;
+    margin-bottom: 30px;
+    font-size: 12px;
+
+    .location-links {
+      span {
+        margin-right: 20px;
+      }
+    }
+
+    .logo {
+      font-size: 30px;
+      letter-spacing: 1px;
+      font-weight: 900;
+
+      a {
+        color: #555;
+      }
+    }
+
+    .auth-links {
+      a {
+        margin-right: 20px;
+      }
+    }
+  }
+
+  .bottom-nav-links {
+    border-top: 1px solid #eee;
+    padding: 15px 0;
+
+    .clothing-categories-links {
+      display: flex;
+      justify-content: center;
+
+      a {
+        margin-right: 30px;
+        letter-spacing: 1px;
+        color: #777;
+        font-size: 14px;
+      }
+    }
+  }
+
+  a {
+    color: #444;
+    text-decoration: none;
+  }
+}

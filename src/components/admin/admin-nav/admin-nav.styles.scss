@@ -1,0 +1,19 @@
+.admin-nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 70px;
+  border-bottom: 1px solid #eee;
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 900;
+    line-height: 70px;
+
+    a {
+      color: #555;
+    }
+  }
+}
